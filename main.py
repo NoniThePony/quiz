@@ -154,10 +154,11 @@ class Quiz:
         self.right = 0
 
 
-btns = game.buttons
+
 
 def quizCreator():
     q = Quiz(questions)
+    btns = q.buttons
 
 
 def redrawWindow(win, game, p):
